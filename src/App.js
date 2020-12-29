@@ -51,7 +51,7 @@ class App extends Component {
   return (
     <div className="App">
       <div style={{margin:'20px'}}>
-      <Tooltip title="eg: Binary-Hackers/42_Subjects " placement="le">
+      <Tooltip title="eg: Binary-Hackers/42_Subjects " placement="left">
                     <Input 
                     placeholder={this.state.inputValue}
                     style={{width:'250px' , marginRight:'10px'}}
